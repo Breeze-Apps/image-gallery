@@ -78,7 +78,7 @@ function App() {
           <main className="container mx-auto p-4 flex-grow mt-16">
             <Suspense fallback={<div>Loading...</div>}>
               <Routes>
-                <Route path="/" element={
+                <Route path="/image-gallery" element={
                   <Tabs defaultValue={viewType} onValueChange={handleViewTypeChange}>
                     <div className="flex justify-center mb-6">
                       <TabsList>
